@@ -4,7 +4,7 @@ version: 2.1
 commands:
   fail:
     steps:
-      - run: return 1
+      - run: echo "return 1"
   success:
     steps:
       - run: echo "it works!"
